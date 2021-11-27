@@ -71,9 +71,13 @@ function useBoard () {
 
   // 棋盤都全渲染好後判斷輸贏
   useEffect(() => {
-    if (lastX.current === undefined || lastY.current === undefined ) return
-    if (calculateWinner(squares, lastX.current, lastY.current)) {
-      setWinner(calculateWinner(squares, lastX.current, lastY.current))
+    if (lastX.current === undefined || lastY.current === undefined || !lastX || !lastY) return
+    const gameWinner = calculateWinner(squares, lastX.current, lastY.current)
+
+    // if (lastX.current === undefined || lastY.current === undefined ) return
+    if (gameWinner) {
+      onClickAnimate()
+      setWinner(gameWinner)
     }
 
   }, [squares])
