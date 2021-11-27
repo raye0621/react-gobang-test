@@ -1,5 +1,7 @@
 ## 五子棋
 
+[Demo](https://raye0621.github.io/react-gobang-test/)
+
 1. 簡介 (圖)
 React 入門學習時製作的五子棋遊戲。
 
