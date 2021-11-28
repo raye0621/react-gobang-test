@@ -10,6 +10,10 @@ React 入門學習時製作的五子棋遊戲。
 - 使用二維陣列存取棋盤狀態
 - 彩蛋：勝負出現後，標題會出現可以點選的文字，點選後會出現我愛 Huli 的跑馬燈
 
+![](https://i.imgur.com/ZpSjuRI.gif)
+
+![](https://i.imgur.com/8AljYB0.gif)
+
 3. 使用技術
 - 以 JSX 語法撰寫元件
 - 使用 function component 搭配 hooks
