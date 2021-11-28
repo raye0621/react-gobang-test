@@ -26,7 +26,7 @@ React 入門學習時製作的五子棋遊戲。
 
 ## 專案結構
 
-/src
+- /src
 	- /components
 		- App.js
 		- GobangInfo.js
