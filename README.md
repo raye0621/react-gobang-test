@@ -1,12 +1,8 @@
-## 五子棋小遊戲
+## React - 五子棋小遊戲
 
-![](https://i.imgur.com/xJAMXl3.png)
+這是為了學習 React 及 React hooks 應用所製作的五子棋遊戲。
 
 - [Demo](https://raye0621.github.io/react-gobang-test/)
-
----
-
-React 入門學習時製作的五子棋遊戲。
 
 ## 功能 
 
@@ -35,6 +31,6 @@ React 入門學習時製作的五子棋遊戲。
 		- useBoard.js
 	- /style
 		- index.css
-	animate.js
-	index.js
-	utils.js
+	- animate.js
+	- index.js
+	- utils.js
