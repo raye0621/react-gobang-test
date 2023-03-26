@@ -1,3 +1,4 @@
+// customer hooks
 import{ useEffect, useState, useRef } from 'react';
 import{ animateData } from '../animate'
 import{ calculateWinner } from '../utils'
